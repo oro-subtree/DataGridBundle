@@ -20,7 +20,7 @@ class Configuration implements ConfigurationInterface
                     ->prototype('array')
                         ->ignoreExtraKeys()
                         ->children()
-                            ->scalarNode('data_name')->end()
+                            ->scalarNode('data_name')->isRequired()->end()
                         ->end()
                     ->end()
                 ->end()
