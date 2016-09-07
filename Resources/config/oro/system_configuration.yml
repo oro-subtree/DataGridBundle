@@ -1,4 +1,4 @@
-oro_system_configuration:
+system_configuration:
     groups:
         look_and_feel:
             title:       oro.grid.system_configuration.groups.look_and_feel.title
